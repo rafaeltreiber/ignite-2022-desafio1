@@ -1,0 +1,48 @@
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  width: 736px;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  display: flex;
+  gap: 8x;
+}
+
+.completedTasks {
+  display: flex;
+  gap: 8x;
+}
+
+.createdTasks span {
+  color: var(--blue);
+  padding-right: 8px;
+}
+
+.completedTasks span {
+  color: var(--blue);
+  padding-right: 8px;
+}
+
+.counter {
+  color: var(--white);
+  padding: 2px 8px;
+  gap: 8px;
+
+  width: 25px;
+  height: 19px;
+
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 999px;
+
+  border: none;
+}
+
+
+

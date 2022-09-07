@@ -1,0 +1,22 @@
+.emptyListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  margin: 64px 340px 16px;
+}
+
+.NomessagesText {
+  margin-top: 16px;
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.createTasks {
+  color: var(--gray-300);
+}
